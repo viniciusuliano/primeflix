@@ -39,3 +39,19 @@ font-size: 18px;
 .favorites p{
     text-align: center;
 }
+
+.excluir{
+    width: 70px;
+    height: 30px;
+    background-color: rgba(255, 88, 88, 0.726);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.excluir:hover{
+    background-color: red;
+    transform: scale(1.01);
+}
