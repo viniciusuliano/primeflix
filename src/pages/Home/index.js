@@ -16,7 +16,6 @@ function Home(){
                     page: 1,
                 }
             })
-            console.log(response.data.results.slice(0,10))
             setFilmes(response.data.results.slice(0,10))
             setLoading(false)
         }
