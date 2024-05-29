@@ -40,8 +40,6 @@ function Home(){
                             <strong>{filme.title}</strong>
                             <img src={`https://image.tmdb.org/t/p/original${filme.poster_path}`} alt="poster"></img>
                             <Link to={`/filme/${filme.id}`}>Acessar</Link>
-                            {/* <h2>Sinopse</h2>
-                            <p>{filme.overview}</p> */}
                         </article>
                         
                     )
